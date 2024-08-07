@@ -1,0 +1,52 @@
+.about {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(90deg,#180130 0%, #2B2155 100%);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .about h1 {
+    font-size: 2.8rem;
+    margin-bottom: 2px;
+    font-weight: bold;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 2% 0;
+    line-height: 30px;
+  }
+  
+  .techIcons {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    gap: 20px;
+  }
+  
+  .icon {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #FFF;
+    color: #2B2155;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    transition: background-color 0.3s;
+  }
+  
+  .icon:hover {
+    background-color: #FF5C00;
+    color: #FFF;
+  }
+  
