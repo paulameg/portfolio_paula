@@ -1,0 +1,195 @@
+.portfolio {
+    background: linear-gradient(90deg,#180130 0%, #2B2155 100%);/* src/components/Portfolio/Portfolio.module.css */
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .modalContent {
+      position: relative; /* Adiciona posição relativa para que o botão de fechar possa ser posicionado dentro do modal */
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: left;
+      max-width: 600px;
+      width: 90%;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+    
+    .close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 2rem;
+      cursor: pointer;
+      color: #180130; /* Cor do X para se destacar sobre o fundo do modal */
+    }
+    
+    .modalContent h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    
+    .modalContent p {
+      margin-bottom: 15px;
+    }
+    
+    .modalContent a {
+      color: #ff5c00;
+      text-decoration: none;
+    }
+    
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.8rem;
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+
+.buttons {
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 1200px;
+  padding-right: 20px;
+}
+
+.buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #180130;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.buttons button.active {
+  background-color: #ff5c00;
+  color: #000000;
+  font-weight: 700;
+}
+
+.buttons button.active:hover {
+  background-color: #dd7539;
+  color: #000000;
+  font-weight: 700;
+}
+
+.buttons button:hover {
+  background-color: #2b2155;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.projectCard {
+  background-color: #180130;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 23vh;
+  max-width: 100%;
+}
+
+.projectCard img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 15px;
+}
+
+.projectCard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.projectCard p {
+  font-size: 1rem;
+  color: #ff5c00;
+}
+
+/* Modal Styles */
+/* src/components/Portfolio/Portfolio.module.css */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  position: relative; /* Adiciona posição relativa para que o botão de fechar possa ser posicionado dentro do modal */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  max-width: 600px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #180130; /* Cor do X para se destacar sobre o fundo do modal */
+}
+
+.modalContent h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.modalContent p {
+  margin-bottom: 15px;
+}
+
+.modalContent a {
+  color: #ff5c00;
+  text-decoration: none;
+}
+
