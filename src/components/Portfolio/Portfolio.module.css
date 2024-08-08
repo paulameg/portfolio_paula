@@ -70,26 +70,29 @@
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 35vh;
   max-width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
 }
 
 .projectCard img {
-  max-width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-bottom: 1px solid #FFF;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-bottom: 1px solid #fff;
   margin-bottom: 15px;
+  border-radius: 10px;
 }
 
 .projectCard h3 {
   font-size: 1.5rem;
-  margin-bottom: 10px;
 }
 
 .projectCard p {
@@ -140,6 +143,11 @@
 .modalContent p {
   margin-bottom: 15px;
   color: #000000;
+}
+
+.projectDescription {
+  color: #000000;
+  line-height: 120%;
 }
 
 .modalContent a {

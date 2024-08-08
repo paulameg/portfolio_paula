@@ -6,6 +6,7 @@ interface Project {
     name: string;
     type: string;
     image: string;
+    description: string;
     projectLink: string;
     repoLink?: string;
 }
@@ -25,7 +26,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
                     &times;
                 </span>
                 <h2>{project.name}</h2>
-                <p>Breve descrição do projeto, suas funcionalidades, tecnologias utilizadas, etc.</p>
+                <p className={styles.projectDescription}>{project.description}</p>
                 <p>
                     <a href={project.projectLink} target="_blank" rel="noopener noreferrer">Link para o projeto</a>
                     {project.repoLink && (
