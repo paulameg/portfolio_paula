@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Footer.module.css';
 
-import { FaGithub, FaLinkedin, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaWhatsapp, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
 import Logo from '../../assets/logo.png';
 
@@ -19,6 +19,9 @@ const Footer: React.FC = () => {
             </a>
             <a href="https://www.linkedin.com/in/paula-takahashi-065527158/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin />
+            </a>
+            <a href="https://www.instagram.com/by_megu/" target="_blank" rel="noopener noreferrer">
+                <FaInstagram />
             </a>
             <a href="https://wa.me/16982372094" target="_blank" rel="noopener noreferrer">
                 <FaWhatsapp />

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './Hero.module.css';
-import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import Perfil from '../../../public/perfil.png';
 
 const Hero: React.FC = () => {
@@ -17,6 +17,9 @@ const Hero: React.FC = () => {
                         </a>
                         <a href="https://www.linkedin.com/in/paula-takahashi-065527158/" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin />
+                        </a>
+                        <a href="https://www.instagram.com/by_megu/" target="_blank" rel="noopener noreferrer">
+                            <FaInstagram />
                         </a>
                         <a href="https://wa.me/16982372094" target="_blank" rel="noopener noreferrer">
                             <FaWhatsapp />
