@@ -79,3 +79,57 @@
     height: 483px;
     border-radius: 10px;
 }
+
+
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+    }
+
+    .heroContent {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .heroText h1 {
+        font-size: 2.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .heroText h2 {
+        font-size: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .line {
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .socialIcons {
+        gap: 20px;
+        
+    }
+
+    .socialIcons a {
+        width: 61px;
+        height: 61px;
+        font-size: 2.3rem;
+    }
+
+    .heroImage {
+        max-width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .heroImage img {
+        width: 70%;
+        height: auto;
+        border-radius: 10px;
+    }
+}
+
