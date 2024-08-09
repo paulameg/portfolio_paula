@@ -122,6 +122,7 @@
     }
 
     .heroImage {
+        margin-top: 50px;
         max-width: 300px;
         margin-bottom: 30px;
     }
