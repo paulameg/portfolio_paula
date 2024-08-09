@@ -32,6 +32,7 @@
     display: flex;
     justify-content: end;
     margin-bottom: 20px;
+    gap: 10px;
   }
   
   .socialMedia a {
@@ -43,7 +44,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 15px;
     text-decoration: none;
     transition: background-color 0.3s;
     font-size: 1.5rem;
@@ -68,3 +68,23 @@
     text-align: center;
   }
   
+  @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left, .right {
+        flex: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .right {
+        margin-top: 20px;
+    }
+
+    .socialMedia {
+        justify-content: center;
+    }
+}
