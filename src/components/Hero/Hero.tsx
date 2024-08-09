@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './Hero.module.css';
 import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import Perfil from '../../../public/perfil.png';
 
 const Hero: React.FC = () => {
     return (
@@ -23,7 +24,7 @@ const Hero: React.FC = () => {
                     </div>
                 </div>
                 <div className={styles.heroImage}>
-                    <img src="src\assets\perfil.png" alt="Paula Takahashi" />
+                    <img src={Perfil} alt="Paula Takahashi" />
                 </div>
             </div>
         </section>
