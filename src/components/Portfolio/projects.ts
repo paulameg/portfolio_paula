@@ -9,12 +9,12 @@ import QFome from './assets/QFome.png';
 export const projects = [
     {
       id: 1,
-      name: 'Vital Fit',
+      name: 'Kenji',
       type: 'Front-End',
-      image: VitalFit,
-      description: 'O VitalFit é um projeto fictício de fitness criado para aprimorar habilidades em front-end e design. Utilizando Figma para o design e React JS com Vite para a implementação, o projeto foca na adaptabilidade e responsividade para uma excelente experiência do usuário em todos os dispositivos. Oferece experiência prática em criação de protótipos UI/UX, desenvolvimento de componentes eficientes e aplicação de princípios ágeis.',
-      projectLink: 'https://vital-fit-five.vercel.app/',
-      repoLink: 'https://github.com/paulameg/VitalFit/tree/master/VitalFit'
+      image: Kenji,
+      description: 'A Kenji é uma agência de serviços voltada para o marketing digital, desenvolvendo estratégias para impulsionar a visibilidade e o crescimento de negócios locais. A landing page do projeto, criada em colaboração com meu irmão Pedro Takahashi, que está cursando Gestão de Negócios, foi desenvolvida principalmente com HTML e CSS, com alguns elementos em JavaScript. O objetivo é fornecer informações claras sobre nossos serviços, facilitar o contato, inspirar com imagens e depoimentos, e garantir uma navegação intuitiva e responsiva em diversos dispositivos.',
+      projectLink: 'https://kenji-md.vercel.app/',
+      repoLink: ''
     },
     {
       id: 2,
@@ -26,12 +26,12 @@ export const projects = [
     },
     {
       id: 3,
-      name: 'Kenji',
+      name: 'Vital Fit',
       type: 'Front-End',
-      image: Kenji,
-      description: 'A Kenji é uma agência de serviços voltada para o marketing digital, desenvolvendo estratégias para impulsionar a visibilidade e o crescimento de negócios locais. A landing page do projeto, criada em colaboração com meu irmão Pedro Takahashi, que está cursando Gestão de Negócios, foi desenvolvida principalmente com HTML e CSS, com alguns elementos em JavaScript. O objetivo é fornecer informações claras sobre nossos serviços, facilitar o contato, inspirar com imagens e depoimentos, e garantir uma navegação intuitiva e responsiva em diversos dispositivos.',
-      projectLink: 'https://kenji-md.vercel.app/',
-      repoLink: ''
+      image: VitalFit,
+      description: 'O VitalFit é um projeto fictício de fitness criado para aprimorar habilidades em front-end e design. Utilizando Figma para o design e React JS com Vite para a implementação, o projeto foca na adaptabilidade e responsividade para uma excelente experiência do usuário em todos os dispositivos. Oferece experiência prática em criação de protótipos UI/UX, desenvolvimento de componentes eficientes e aplicação de princípios ágeis.',
+      projectLink: 'https://vital-fit-five.vercel.app/',
+      repoLink: 'https://github.com/paulameg/VitalFit/tree/master/VitalFit'
     },
     {
       id: 4,
