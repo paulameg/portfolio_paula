@@ -7,7 +7,7 @@ const About: React.FC = () => {
     return (
         <section className={styles.about}>
             <h1>Sobre mim</h1>
-            <p>Sou formada em Análise e Desenvolvimento de Sistemas pela FATEC de Ribeirão Preto, com uma paixão especial pela parte visual e estética dos projetos. Isso me levou a me especializar em front-end e UI/UX Design. Continuo desenvolvendo habilidades técnicas e adquirindo conhecimento em diversas tecnologias. Além da tecnologia, sou desenhista, o que complementa meu interesse por design.</p>
+            <p>Sou formada em Análise e Desenvolvimento de Sistemas pela FATEC de Ribeirão Preto, com uma paixão especial pela parte visual e estética dos projetos, o que me levou a me especializar em front-end e UI/UX Design. Continuo expandindo minhas competências técnicas em diversas tecnologias, incluindo estudos em CyberSecurity para agregar mais segurança ao desenvolvimento de software. Além da tecnologia, sou desenhista, o que complementa diretamente meu olhar para o design e para a criação de interfaces.</p>
             <p>Abaixo, você pode conferir algumas das tecnologias com as quais já trabalhei.</p>
             <div className={styles.techIcons}>
                 <div className={styles.icon}><FaCss3Alt /></div>
