@@ -49,7 +49,7 @@ export const projects = [
       type: 'Front-End',
       image: Paula,
       description: 'Esse site de portfólio tem o objetivo de exibir meus projetos de front-end e UI/UX, destacando minhas habilidades e experiências. Desenvolvido com React e Vite, e projetado no Figma, o site proporciona uma navegação intuitiva e responsiva. Com React é possível organizar o conteúdo em componentes reutilizáveis, facilitando a apresentação e filtragem dos trabalhos, enquanto o Vite acelera o desenvolvimento com recarregamento rápido. Além de mostrar meus projetos, o site inclui informações sobre mim e detalhes de contato para facilitar conexões e oportunidades.',
-      projectLink: 'https://project-e.com',
+      projectLink: 'https://portfolio-paula-nine.vercel.app/',
       repoLink: 'https://github.com/paulameg/portfolio_paula'
     },
     {
